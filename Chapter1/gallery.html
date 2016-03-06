@@ -3,24 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <title>Image Gallery</title>
+    <link rel="stylesheet" href="styles/layout.css" media="screen" />
 </head>
 <body>
     <h1>Snapshots</h1>
-    <ul>
+    <ul id="imagegallery">
         <li>
-            <a href="images/001.jpg" onclick="showPic(this);return false" title="001 display">001</a>
+            <a href="images/001.jpg"  title="001 display">001</a>
         </li>
         <li>
-            <a href="images/002.jpg" onclick="showPic(this);return false" title="002 display">002</a>
+            <a href="images/002.jpg"  title="002 display">002</a>
         </li>
         <li>
-            <a href="images/003.jpg" onclick="showPic(this);return false" title="003 display">003</a>
+            <a href="images/003.jpg"  title="003 display">003</a>
         </li>
         <li>
-            <a href="images/004.jpg" onclick="showPic(this);return false" title="004 display">004</a>
+            <a href="images/004.jpg"  title="004 display">004</a>
         </li>
     </ul>
     <img id="placeholder" src="images/placeholder.jpg" alt="my image gallery"/>
+    <p id="description">Choose an image</p>
     <script type="text/javascript" src="scripts/gallery.js"></script>
 </body>
 </html>
